@@ -8,3 +8,17 @@
     justify-content: space-between;
     gap: 5px
 }
+
+.btn {
+    background-color: aqua;
+    color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    line-height: 2rem;
+    padding: 0 10px;
+}
+
+.active {
+    background-color: brown;
+    color: white;
+}

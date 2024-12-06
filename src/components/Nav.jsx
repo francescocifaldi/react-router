@@ -8,9 +8,9 @@ export default function Nav() {
                 <div className="container">
                     <div className={style.navbar}>
                         <ul className={style.menu}>
-                            <li><NavLink to="/">Home</NavLink></li>
-                            <li><NavLink to="/content">Content</NavLink></li>
-                            <li><NavLink to="/about-us">About us</NavLink></li>
+                            <NavLink className={style.btn} to="/">Home</NavLink>
+                            <NavLink className={style.btn} to="/content">Content</NavLink>
+                            <NavLink className={style.btn} to="/about-us">About us</NavLink>
                         </ul>
                     </div>
                 </div>
