@@ -1,4 +1,4 @@
-export default posts = [
+const posts = [
     {
         id: 1,
         titolo: "Introduzione a JavaScript",
@@ -24,5 +24,6 @@ export default posts = [
         titolo: "Introduzione a Node.js",
         descrizione: "Inizia a sviluppare applicazioni lato server con Node.js."
     }
-];
+]
 
+export default posts

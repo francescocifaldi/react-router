@@ -7,7 +7,6 @@ import BlankPage from './pages/BlankPage'
 import Content from './pages/Content'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
